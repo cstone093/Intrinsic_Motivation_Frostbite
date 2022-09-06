@@ -1,4 +1,4 @@
-# Intrinsic Motivation
+# Intrinsic Motivation in Atari 2600 Frostbite
 
 ### Pre-requisites
 
