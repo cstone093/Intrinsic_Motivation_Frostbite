@@ -41,3 +41,6 @@ To plot the graphs for a training csv log:
 ```bash
 python scripts/training_grapher LOG_FILE
 ```
+## Training Videos
+### Mixed reward agent using pixels-based forward model
+![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/MIX-PIX.gif)
