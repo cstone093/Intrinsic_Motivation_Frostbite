@@ -42,5 +42,24 @@ To plot the graphs for a training csv log:
 python scripts/training_grapher LOG_FILE
 ```
 ## Training Videos
+### Random agent
+![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/RANDOM.gif)
+
+### Extrinsic agent
+
+![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/EXT.gif)
+
+### Intrinsic agent using pixels-based forward model
+![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/INT-PIX.gif)
+
 ### Mixed reward agent using pixels-based forward model
+
 ![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/MIX-PIX.gif)
+
+### Intrinsic reward agent using RND forward model
+
+![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/INT-RAND.gif)
+
+### Mixed reward agent using RND forward model
+
+![](https://github.com/cstone093/Intrinsic_Motivation_Frostbite/blob/main/GIF/MIX-RAND.gif)
