@@ -1,0 +1,4 @@
+RL_diss_package/.pytest_cache/*
+__pycache__/
+*.pyc
+.DS_Store
