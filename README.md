@@ -1,6 +1,7 @@
 # Intrinsic Motivation
 
 ### Pre-requisites
+
 The DQN training algorithm has been run using Python 3.8. The following packages are required:
 
 - gym[atari,accept-rom-license] 
@@ -11,20 +12,32 @@ The DQN training algorithm has been run using Python 3.8. The following packages
 - imageio
 - matplotlib
 
-### Training
-To train the agent run the following command in terminal:
+### Installing Package
+
+The code is stored in a package. So, to install this execute the following command within `\RL_diss_package`:
+
 ```bash
-python scripts/intrinsic_extrinsic_runner.py -e <extrinsic reward ratio> -i <intrinsic reward ratio> -m <state encoding>
+pip install .
+```
+
+### Training
+
+To train the agent run the following command in terminal:
+
+```bash
+python scripts/intrinsic_extrinsic_runner.py [-e <extr_ratio>] [-i <intr_ratio>] [-m {"random","pixels"}]
 ```
 We recommend reward ratios in the range [0,1].
 
 The following folders are used to record training progress:
-- /gif: gifs of training.
-- /logs: training episodic reward and episodic length logs. State prediction images if using pixel-based intrinsic motivation.
-- /state_saves: the model weights
+
+- `/gif`: gifs of training.
+- `/logs`: training episodic reward and episodic length logs. State prediction images if using pixel-based intrinsic motivation.
+- `/state_saves`: the model weights
 
 ### Evaluation
+
 To plot the graphs for a training csv log:
 ```bash
-python scripts/training_grapher <csv-log-file>
+python scripts/training_grapher LOG_FILE
 ```
